@@ -2,12 +2,16 @@
 
 <!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html ng-app>
     <head runat="server">
-        <title></title>
+        <title>AngularJS samples</title>
+        <script src="scripts/angular.js"></script>
         <asp:ContentPlaceHolder ID="head" runat="server" />
     </head>
     <body>
+        <h1>Angular samples</h1>
+            <a href="default.aspx">Bind from input</a>
+        |   <%--<a href="default.aspx">Bind to input</a>--%>
         <form id="SiteForm" runat="server">
             <div>
                 <asp:ContentPlaceHolder ID="body" runat="server" />

@@ -2,4 +2,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="body" runat="server">
+    <h2>Hello {{name}}!</h2>
+    Enter name here &#8594;
+    <input type="text" ng-model="name" />
 </asp:Content>
