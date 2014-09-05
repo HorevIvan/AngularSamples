@@ -32,6 +32,7 @@
 </script>
 
 <%-- TODO: переделать на angular c web сервисом --%>
+|
 <% foreach(var item in MenuItems) { %>
-    <a href="<%=item.Item1 %>"><%=item.Item2 %></a>
+    <a href="<%=item.Item1 %>"><%=item.Item2 %></a> |
 <% } %>
