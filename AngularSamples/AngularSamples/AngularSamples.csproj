@@ -57,11 +57,13 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="ajax.aspx" />
     <Content Include="bind.aspx" />
     <Content Include="default.aspx" />
     <Content Include="controller_function.aspx" />
     <Content Include="filter.aspx" />
     <Content Include="Menu.ascx" />
+    <Content Include="menu_service.asmx" />
     <Content Include="repeat.aspx" />
     <Content Include="scripts\angular-mocks.js" />
     <Content Include="scripts\angular.js" />
@@ -74,6 +76,13 @@
     <Content Include="web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ajax.aspx.cs">
+      <DependentUpon>ajax.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ajax.aspx.designer.cs">
+      <DependentUpon>ajax.aspx</DependentUpon>
+    </Compile>
     <Compile Include="bind.aspx.cs">
       <DependentUpon>bind.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -108,6 +117,10 @@
     </Compile>
     <Compile Include="Menu.ascx.designer.cs">
       <DependentUpon>Menu.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="menu_service.asmx.cs">
+      <DependentUpon>menu_service.asmx</DependentUpon>
+      <SubType>Component</SubType>
     </Compile>
     <Compile Include="page.master.cs">
       <DependentUpon>page.master</DependentUpon>
