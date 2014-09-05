@@ -2,7 +2,8 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="body" runat="server">
+    <% var ex = "( 5 + 7 ) * 9"; %>
     <div>
-        ( 5 + 7 ) * 9 = {{ ( 5 + 7 ) * 9 }}
+        <%=ex %> = {{ <%=ex %> }}
     </div>
 </asp:Content>
