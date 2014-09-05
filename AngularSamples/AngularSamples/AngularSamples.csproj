@@ -57,6 +57,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="bind.aspx" />
     <Content Include="default.aspx" />
     <Content Include="Menu.ascx" />
     <Content Include="scripts\angular-mocks.js" />
@@ -70,6 +71,13 @@
     <Content Include="web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="bind.aspx.cs">
+      <DependentUpon>bind.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="bind.aspx.designer.cs">
+      <DependentUpon>bind.aspx</DependentUpon>
+    </Compile>
     <Compile Include="default.aspx.cs">
       <DependentUpon>default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
