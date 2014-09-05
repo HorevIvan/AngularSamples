@@ -59,6 +59,7 @@
   <ItemGroup>
     <Content Include="bind.aspx" />
     <Content Include="default.aspx" />
+    <Content Include="controller_function.aspx" />
     <Content Include="Menu.ascx" />
     <Content Include="repeat.aspx" />
     <Content Include="scripts\angular-mocks.js" />
@@ -85,6 +86,13 @@
     </Compile>
     <Compile Include="default.aspx.designer.cs">
       <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="controller_function.aspx.cs">
+      <DependentUpon>controller_function.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="controller_function.aspx.designer.cs">
+      <DependentUpon>controller_function.aspx</DependentUpon>
     </Compile>
     <Compile Include="Menu.ascx.cs">
       <DependentUpon>Menu.ascx</DependentUpon>
