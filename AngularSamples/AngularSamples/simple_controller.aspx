@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/page.master" AutoEventWireup="true" CodeBehind="simple_controller.aspx.cs" Inherits="AngularSamples.simple_controller" %>
+﻿<%@ Page Title="Simple controller" Language="C#" MasterPageFile="~/page.master" AutoEventWireup="true" CodeBehind="simple_controller.aspx.cs" Inherits="AngularSamples.simple_controller" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <script>
         function userController($scope) {
