@@ -14,7 +14,7 @@
         <h1>Angular samples</h1>
         <uc:Menu runat="server" ID="Menu" />
         <form id="SiteForm" runat="server">
-            <div>
+            <div style="margin: 20px;">
                 <asp:ContentPlaceHolder ID="body" runat="server" />
             </div>
         </form>
